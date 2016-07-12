@@ -1,4 +1,8 @@
-# node2vec
+# rdf2node2vec
+
+This project is a fork of **[aditya-grover/node2vec](https://github.com/aditya-grover/node2vec)** which aims to execute the embedding algorithm on RDF graphs.
+
+## Original Documentation
 
 This repository provides a reference implementation of *node2vec* as described in the paper:<br>
 > node2vec: Scalable Feature Learning for Networks.<br>
