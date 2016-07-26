@@ -7,7 +7,7 @@ This project is a fork of **[aditya-grover/node2vec](https://github.com/aditya-g
 To convert a single RDF file (in NTriples format) to edge lists, simply run:<br/>
 	``python src/rdf2node2vec.py file.nt``
 	
-This will create as many `.edgelist` files as there are properties in the graph. See the "Basic Usage" section below.
+This will create as many `.edgelist` files as there are properties in the graph. To generate the embeddings, see the "Basic Usage" section below. Note that node2vec must be called using the `--directed` modifier.
 
 ## node2vec Documentation
 
