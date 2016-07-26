@@ -2,7 +2,14 @@
 
 This project is a fork of **[aditya-grover/node2vec](https://github.com/aditya-grover/node2vec)** which aims to execute the embedding algorithm on RDF graphs.
 
-## Original Documentation
+## Convert RDF data
+
+To convert a single RDF file (in NTriples format) to edge lists, simply run:<br/>
+	``python src/rdf2node2vec.py file.nt``
+	
+This will create as many `.edgelist` files as there are properties in the graph. See the "Basic Usage" section below.
+
+## node2vec Documentation
 
 This repository provides a reference implementation of *node2vec* as described in the paper:<br>
 > node2vec: Scalable Feature Learning for Networks.<br>

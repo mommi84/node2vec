@@ -1,1 +1,6 @@
 *.pyc
+.idea/
+
+*.edgelist
+*.emb
+*.tsv
